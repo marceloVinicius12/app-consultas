@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet"> 
     <link href="css/estilos.css" rel="stylesheet"> 
     <title>APP Consultas</title>
 </head>
 <body>
-    <main>
+    <main class="container">
         <header>
     <h1>APP Consultas</h1>
     <hr>
@@ -26,4 +27,5 @@
         </footer>
     </main>
 </body>
+<script src="bootstrap/bootstrap.bundle.min.js"></script>
 </html>
