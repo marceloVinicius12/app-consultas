@@ -1,0 +1,15 @@
+h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+nav{
+    text-align: center
+}
+footer,.conteudo{
+    text-align: center;
+    margin-top: 200px
+}
+a{
+ font-size: 20px
+}
