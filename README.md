@@ -1,6 +1,6 @@
 # App Consultas
 
-## Miro com a documebtação do projeto 
+## Miro com a documentação do projeto 
 https://miro.com/app/board/o9J_lO9jUSo=/
 
 ## Descrição
