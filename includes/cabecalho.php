@@ -11,13 +11,20 @@
 </head>
 
 <body>
+<div class="text-center">
     <main class="container">
         <header>
             <h1>APP Consultas</h1>
             <hr>
         </header>
         <nav>
+        <div class="row">
+    <div class="col-lg-4">
             <a href="../medicos/listar-medicos.php"><img src="../img/medico.png">Cadastro de médicos</a>
-            <a href="#"><img src="../img/paciente.png">Cadastro de pacientes</a>
-            <a href="#"><img src="../img/agenda.png">Agendamento de consultas</a>
+    </div>
+    <div class="col-lg-4">
+            <a href="#"><img src="../img/paciente.png">Cadastro de pacientes</a></div>
+            <div class="col-lg-4">
+            <a href="#"><img src="../img/agenda.png">Agendamento de consultas</a></div>
+        </div>
         </nav>

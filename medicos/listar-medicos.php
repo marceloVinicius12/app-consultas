@@ -4,7 +4,7 @@
 <?php include "../includes/cabecalho.php"; ?>
 <hr>
 <p>
-<a href="#">novo medico </a>
+<a href="medicos-formulario-inserir.php">novo medico </a>
 </p>
 
 <?php 
@@ -37,21 +37,5 @@ $ListaDeMedicos = mysqli_query($conexao , $sqlBusca);
 ?>
 
 </table>
-
-<?php include "../includes/rodape.php"; ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php include "../includes/rodape.php"; ?>
