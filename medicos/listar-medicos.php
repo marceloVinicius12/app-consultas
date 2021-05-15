@@ -30,7 +30,8 @@ $ListaDeMedicos = mysqli_query($conexao , $sqlBusca);
         echo "<td>{$medico['telefone']}</td>";
         echo "<td>{$medico['crm']}</td>";
         echo "<td>{$medico['especialidade']}</td>";
-        echo "<td>Alterar | <a href='medicos-excluir.php?id_medico={$medico['id']}'>Excluir</a></td>";
+        echo "<td><a href='medicos-formulario-alterar.php?id_medico={$medico['id']}'>Alterar</a> |";
+        echo  "<a href='medicos-excluir.php?id_medico={$medico['id']}'>Excluir</a></td>";
         echo "</tr>";
     }
   
