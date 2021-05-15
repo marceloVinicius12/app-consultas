@@ -4,7 +4,7 @@
 <?php include "../includes/cabecalho.php"; ?>
 <hr>
 <p>
-<a href="medicos-formulario-inserir.php">novo medico </a>
+<a href="medicos-formulario-inserir.php" class="btn btn-success"></i> Novo medico</a>
 </p>
 
 <?php 
@@ -14,7 +14,7 @@ $ListaDeMedicos = mysqli_query($conexao , $sqlBusca);
 ?>
 
 <table class="table table-striped table-hover">
-<tr class="bg-primary">
+<tr class="bg-success">
         <th>ID</th>
         <th>Nome</th>
         <th>telefone</th>
@@ -30,7 +30,7 @@ $ListaDeMedicos = mysqli_query($conexao , $sqlBusca);
         echo "<td>{$medico['telefone']}</td>";
         echo "<td>{$medico['crm']}</td>";
         echo "<td>{$medico['especialidade']}</td>";
-        echo "<td>Alterar | excluir</td>";
+        echo "<td>Alterar | <a href='medicos-excluir.php?id_medico={$medico['id']}'>Excluir</a></td>";
         echo "</tr>";
     }
   

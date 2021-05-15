@@ -11,20 +11,26 @@
 </head>
 
 <body>
-<div class="text-center">
-    <main class="container">
-        <header>
-            <h1>APP Consultas</h1>
-            <hr>
-        </header>
-        <nav>
-        <div class="row">
-    <div class="col-lg-4">
-            <a href="../medicos/listar-medicos.php"><img src="../img/medico.png">Cadastro de médicos</a>
-    </div>
-    <div class="col-lg-4">
-            <a href="#"><img src="../img/paciente.png">Cadastro de pacientes</a></div>
-            <div class="col-lg-4">
-            <a href="#"><img src="../img/agenda.png">Agendamento de consultas</a></div>
-        </div>
-        </nav>
+    <div class="text-center">
+        <main class="container">
+            <header>
+                <h1>APP Consultas</h1>
+                <hr>
+            </header>
+            <nav>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="../medicos/listar-medicos.php"><img src="../img/medico.png">
+                            <a href="medicos-formulario-inserir.php" class="btn btn-success"></i>Cadastro de medico</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#"><img src="../img/paciente.png">
+                            <a href="#" class="btn btn-success"></i>Cadastro de pacientes</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="#"><img src="../img/agenda.png">
+                            <a href="#" class="btn btn-success"></i>Agendamento de consultas</a>
+
+                    </div>
+            </nav>
