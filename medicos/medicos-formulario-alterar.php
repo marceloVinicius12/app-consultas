@@ -2,13 +2,13 @@
  include "../includes/cabecalho.php"; 
 $id_medico = $_GET['id_medico'];
 include "../includes/conexao.php";
-$sqlBuscar = "SELECT * FROM tb_medicos WHERE id={$id_medico};";
+$sqlBuscar = "SELECT * FROM tb_medicos WHERE id= {$id_medico};";
 
-$listaDeMedicos = mysqli_query($conexao ,  $sqlBuscar);
+$ListaDeMedicos = mysqli_query($conexao , $sqlBuscar);
 
 $nome = $telefone = $crm = $especialidade = ""; 
 
-while($medico = mysqli_fetch_assoc($listaDeMedicos)){
+while($medico = mysqli_fetch_assoc($ListaDeMedicos)){
     $nome = $medico['nome'];
     $telefone = $medico['telefone'];
     $crm = $medico['crm'];
@@ -38,9 +38,9 @@ while($medico = mysqli_fetch_assoc($listaDeMedicos)){
 <p>
     <label>Especialidades: </label>
     <select name="especialidade" class="form-select form-select-sm">
-    <option value="cardiologista" <?php if($especialidade == 'cardiologista'){echo "selected";}?>>cardiologista</option>
-    <option value="nutricionista"<?php if($especialidade == 'nutricionista'){echo "selected";}?>>nutricionista</option>
-    <option value="ortopedista"<?php if($especialidade == 'ortopedista'){echo "selected";}?>>ortopedista</option>
+    <option value="cardiologista" <?php if($especialidade == 'cardiologista'){echo "selected " ;}?>>cardiologista</option>
+    <option value="nutricionista"<?php if($especialidade == 'nutricionista'){echo "selected " ;}?>>nutricionista</option>
+    <option value="ortopedista"<?php if($especialidade == 'ortopedista'){echo "selected " ;}?>>ortopedista</option>
     </select>
 </p>
 <p>

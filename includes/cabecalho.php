@@ -22,15 +22,15 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <a href="../medicos/listar-medicos.php"><img src="../img/medico.png">
-                            <a href="medicos-formulario-inserir.php" class="btn btn-success"></i>Cadastro de medico</a>
+                            <a href="../medicos/listar-medicos.php" class="btn btn-success"></i>Cadastro de medico</a>
                     </div>
                     <div class="col-lg-4">
-                        <a href="#"><img src="../img/paciente.png">
-                            <a href="#" class="btn btn-success"></i>Cadastro de pacientes</a>
+                        <a href="../pacientes/pacientes-listar.php"><img src="../img/paciente.png">
+                            <a href="../pacientes/pacientes-listar.php" class="btn btn-success"></i>Cadastro de pacientes</a>
                     </div>
                     <div class="col-lg-4">
-                        <a href="#"><img src="../img/agenda.png">
-                            <a href="#" class="btn btn-success"></i>Agendamento de consultas</a>
+                        <a href="../agenda/agenda-listar.php"><img src="../img/agenda.png">
+                            <a href="../agenda/agenda-listar.php" class="btn btn-success"></i>Agendamento de consultas</a>
 
                     </div>
             </nav>

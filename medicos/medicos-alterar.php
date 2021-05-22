@@ -10,15 +10,15 @@ $especialidade = $_POST['especialidade'];
 $sqlAlterar = "UPDATE tb_medicos set
      nome = '{$nome}' , 
      telefone = '{$telefone}' ,
-     crm = '{$crm}' ,
+     crm = '{$crm}',
      especialidade = '{$especialidade}'
      WHERE id = {$id_medico}";
 
 $resultado = mysqli_query($conexao , $sqlAlterar);
+
 if($resultado){
-    echo "alterado com sucesso <br>";
+    echo "alterado com sucesso";
     echo "<a href='listar-medicos.php'>Voltar</a>";
 }else{
     echo "ocooreu erro ai";
 }
-?>

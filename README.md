@@ -48,3 +48,15 @@ CREATE TABLE `bd_consultorio`.`TB_MEDICOS` (
 ) 
 ENGINE = InnoDB;
 ```
+### criação da tabela pacientes 
+
+```sql
+CREATE TABLE IF NOT EXISTS `tb_pacientes` (
+`id` int(11) NOT NULL,
+  `nome` varchar(100) NOT NULL,
+  `telefone` varchar(20) NOT NULL,
+  `data_nascimento` date NOT NULL,
+  `convenio` varchar(3) NOT NULL,
+  `diagnostico` text NOT NULL,
+  PRIMARY KEY ('id')
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
